@@ -1,0 +1,115 @@
+.slick-slide img {
+    border-radius: 30px;
+}
+.title-slider{
+    color: whitesmoke;
+    font-weight: 100;
+    color: #c7c0c0;
+    font-size: 20px;
+}
+
+.sliderv2{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    width: 20%;
+}
+
+.card-v2{
+    background: white;
+    color: black;;
+    margin: 10px;
+    position: relative;
+    border-radius: 15px;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 7%;
+}
+.card-v2 .desc-s  h3{
+    color : black !important;
+    font-size: 1rem;
+}
+.slider-bas .card-bas .desc-s h4 {
+    color : white !important;
+    font-size: 1rem;
+}
+.card-v2 img {
+    width: 78px;
+    height: 79px;
+    border-radius: 8px;
+    
+    }
+    
+    
+    .card-v2 p{
+    font-weight: normal;
+    font-size: 18px;
+    }
+    
+
+    @media screen and (max-width: 1290px )  {
+.sliderv2{
+    width: 40%;
+}
+    }
+
+    .Countainer-slider{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+        margin-bottom: 5%;
+
+    }
+
+    .card-bas{
+        background: transparent;
+        color: white;;
+        margin: 10px;
+        position: relative;
+        border-radius: 15px;
+        font-family: Roboto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 70%;
+    }
+    .slider-column{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2%;
+    }
+    .first {
+        padding-bottom: 5%;
+    }
+
+    @media screen and (max-width: 1432px )  {
+        .sliderv2{
+            display: none;
+        }
+        .first img {
+            width: 100%;
+            height: 100%;
+            
+        }
+        .first {
+            width: 74%;
+            margin: auto;
+        }
+        .card-bas {
+           width: 100%;
+           margin: 0;
+           padding: 1%;
+        }
+        
+
+.slider-column {
+    padding-top: 2%;
+}
+    }
+
+

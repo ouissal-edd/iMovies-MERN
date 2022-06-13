@@ -1,0 +1,169 @@
+.area-comment{
+display: flex;
+flex-direction: column;
+width: 368px;
+background: transparent;
+backdrop-filter: blur(30px);
+--webkit-backdrop-filter: blur(30px);
+background-color: rgba(255, 255, 255, 0.15);
+
+}
+.countainer-comments{
+    display: flex;
+    gap: 2%;
+}
+.content-commnt{
+    color: #fff;
+}
+.comment-tiret {
+width: 44px;
+height: 0px;
+background: white;
+border: 1px solid #fff;
+
+}
+.titleComments{
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2%;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+.titleComments h4{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: normal;
+ 
+ }
+.btn-comment{
+    width: 126px;
+height: 45px;
+background: #8a7de4;
+border: none;
+color: white;
+
+}
+span.ant-comment-content-author-name {
+    color: darkgray !important;
+}
+.comment-list{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.ant-comment-inner{
+    padding: 16px 30px !important;
+
+}
+.countainer-list{
+width: 752px;
+height: 122px;
+border-radius: 10px;
+background: transparent;
+backdrop-filter: blur(30px);
+--webkit-backdrop-filter: blur(30px);
+background-color: rgba(255, 255, 255, 0.15);
+
+}
+
+
+
+.ant-comment-avatar img {
+    border: 1px solid;
+}
+.reply-comment{
+    display: flex ;
+    margin-bottom: 2%;
+}
+
+.comment-card{
+    display: 'flex';
+    justify-content:'center';
+      align-items:'center'; 
+background: transparent;
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+padding: 2%;
+}
+
+path {
+    color: azure;
+}
+
+.ant-comment-actions > li > span {
+    color: azure;
+}
+
+
+
+/* Movies Infos */
+.Details-M {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+  
+}
+.movie-info-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    align-items: baseline;
+   
+}
+.movie-info-content  span{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: left;
+    color: #bcbcbc;
+    
+}
+.movie-info-content h3 {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: left;
+    color: #fff;
+    
+}
+.Details-M img {
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1250px )  {
+    .area-comment{
+        width: 100%;
+    }
+    .countainer-comments{
+        flex-direction: column;
+    }
+    .comment-tiret{
+        width: 100%;
+    }
+    .titleComments{
+        flex-direction: column;
+    }
+    .btn-comment{
+        width: 100%;
+    }
+    .comment-list{
+        flex-direction: column;
+    }
+    .ant-comment-inner{
+        padding: 16px 30px !important;
+    }
+    .countainer-list{
+        width: 100%;
+    }
+    .ant-comment-avatar img {
+        border: 1px solid;
+    }
+    .reply-comment{
+        flex-direction: column;
+    }
+}

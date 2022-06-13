@@ -1,0 +1,128 @@
+*{
+    font-family: Roboto;
+
+}
+.Intro {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    border-radius: 30px;
+}
+.left{
+    padding: 0 90px;
+}
+.showcase-area .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .big-title h1 {
+    font-size: 1.9rem;
+    color:#fff;
+    text-transform: capitalize;
+    line-height: 1.5;
+  }
+  
+  .text {
+    color: #eee;
+    font-size: 1rem;
+    margin: 1.9rem 0 2.5rem;
+    max-width: 600px;
+    line-height: 1.5;
+  }
+  button.ant-btn.add-to-favorite {
+    align-items: center;
+    padding: 5%;
+    display: flex;
+    border-radius: 15px;
+    background: #423692;
+    color: aliceblue;
+    /* border: 3px solid #8a7de4; */
+    /* border: cadetblue; */
+    blur: 30px;
+    border: none;
+    backdrop-filter: blur(10px);
+    --webkit-backdrop-filter: blur(8px);
+    background-color: rgb(44 22 196 / 45%);
+  }
+  
+
+  a{
+      text-decoration: none;
+  }
+ 
+
+  @media screen and (max-width: 1250px )  {
+    .Intro {
+        height:auto;
+    }
+  .showcase-area {
+    padding: 2.5rem 0;
+    max-width: 700px;
+    margin: 0 auto;
+  
+  }
+
+
+  .showcase-area .container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    grid-gap: 2rem;
+  }
+
+  .big-title {
+    font-size: 1.1rem;
+  }
+
+  .text {
+    font-size: 0.95rem;
+    margin: 1.4rem 0 1.5rem;
+  }
+  }
+  @media screen and (max-width: 870px )  {
+      
+  .showcase-area {
+    padding: 2.5rem 0;
+    max-width: 700px;
+    margin: 0 auto;
+  
+  }
+
+
+  .showcase-area .container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    grid-gap: 2rem;
+  }
+
+  .big-title {
+    font-size: 1.1rem;
+  }
+
+  .text {
+    font-size: 0.95rem;
+    margin: 1.4rem 0 1.5rem;
+  }
+  }
+  
+@media screen and (max-width: 470px) {
+    .container {
+      padding: 0 1.5rem;
+    }
+  
+    .big-title {
+      font-size: 0.9rem;
+    }
+  
+    .text {
+      margin: 1.1rem 0 1.5rem;
+    }
+  
+    .showcase-area .btn {
+      font-size: 0.8rem;
+    }
+  }
